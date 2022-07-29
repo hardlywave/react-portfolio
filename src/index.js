@@ -5,7 +5,8 @@ import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-let data = {
+
+let headerData = {
     id: Date.now(),
     logoName: 'crypter',
     discoverButton: 'Discover',
@@ -19,9 +20,10 @@ let data = {
         }
     ],
 }
+
 root.render(
   <React.StrictMode>
-    <Header options={data}/>
+    <Header options={headerData}/>
   </React.StrictMode>
 );
 
