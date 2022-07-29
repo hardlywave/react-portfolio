@@ -1,0 +1,97 @@
+.header {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background-color: #141416;
+  color: white;
+  border-bottom: #353945 solid 1px;
+
+  &__button {
+    all: unset;
+    margin: 0 0 0 35px;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+
+    &.notification:hover {
+      transform: scale(1.15);
+    }
+
+    &.upload,
+    &.wallet {
+      padding: 10px 20px;
+      border: #777E90 solid 2px;
+      border-radius: 25px;
+    }
+  }
+
+  &__left-content {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    margin-left: 3%;
+    width: 50%;
+    height: 100%;
+
+    .logo-name {
+      margin-left: 10px;
+      margin-right: 35px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .vertical-line {
+      left: 230px;
+      height: 60%;
+      width: 2px;
+      background-color: #353945;
+    }
+  }
+
+  &__right-content {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    margin-right: 3%;
+    width: 50%;
+    height: 100%;
+
+    .header__input-container {
+      display: flex;
+      position: relative;
+      flex-direction: row;
+
+      .header__button {
+        position: relative;
+        top: 2px;
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .input{
+      &__search{
+        all: unset;
+        position: relative;
+        left: 30px;
+        padding: 10px 30px 10px 20px;
+        border: #777E90 solid 2px;
+        border-radius: 10px;
+      }
+    }
+
+    .notification-status {
+      position: relative;
+      top: 5px;
+      left: 10px;
+      width: 8px;
+      height: 8px;
+      background-color: #45B26B;
+      border-radius: 50%;
+    }
+  }
+}

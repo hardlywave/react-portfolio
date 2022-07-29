@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './index.scss';
+import Header from './components/Header';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+let data = {
+    id: Date.now(),
+    logoName: 'crypter',
+    discoverButton: 'Discover',
+    workInfoButton: 'How it works',
+    uploadButton: 'Upload',
+    walletButton: 'Connect Wallet',
+    searchHolder: 'Search',
+    notification: [
+        {
+            id: 1,
+        }
+    ],
+}
 root.render(
   <React.StrictMode>
-    <App />
+    <Header options={data}/>
   </React.StrictMode>
 );
 
