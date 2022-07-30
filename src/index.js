@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
 import Header from './components/Header';
+import AuctionPage from "./components/AuctionPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-let headerData = {
-    id: Date.now(),
+const headerData = {
     logoName: 'crypter',
     discoverButton: 'Discover',
     workInfoButton: 'How it works',
@@ -20,8 +20,24 @@ let headerData = {
     ],
 }
 
+const auctionData = {
+    auctionHeaderData: {
+        paragraphName: 'A creative agency that lead and inspire',
+        titleName: 'The new creative economy',
+        buttonName: 'Start your search',
+    },
+    auctionCreatorData: {
+        avatar: "https://picsum.photos/200/301",
+        name: {
+            firstName: 'Enrico',
+            secondName: 'Cole',
+        },
+    }
+}
+
 root.render(
   <React.StrictMode>
     <Header options={headerData}/>
+    <AuctionPage options={auctionData}/>
   </React.StrictMode>
 );
