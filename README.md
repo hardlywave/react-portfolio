@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Small React project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Design was taken from [here](https://www.figma.com/file/cfGkBSAbPxPBSOVCrK3ebZ/Crypter_-NFT-marketplace-kit-(Copy)?node-id=1555%3A114851)
 
 ## Available Scripts
 
