@@ -7,7 +7,7 @@ import AuctionPage from "./components/AuctionPage";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const headerData = {
-    logoName: 'crypter',
+    logoName: 'NEFFEX',
     discoverButton: 'Discover',
     workInfoButton: 'How it works',
     uploadButton: 'Upload',
