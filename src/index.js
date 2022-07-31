@@ -27,12 +27,24 @@ const auctionData = {
         buttonName: 'Start your search',
     },
     auctionCreatorData: {
-        avatar: "https://picsum.photos/200/301",
+        avatar: 'https://picsum.photos/200/301',
         name: {
             firstName: 'Enrico',
             secondName: 'Cole',
         },
-    }
+    },
+    auctionCustomerData: {
+        avatar: '',
+        name: {
+            firstName: 'Alex',
+            secondName: 'Unknown',
+        },
+        instantPrice: 3.5,
+    },
+    auctionCurrentBid: {
+        currentBid: 1.00,
+        total: 3618.36,
+    },
 }
 
 root.render(
