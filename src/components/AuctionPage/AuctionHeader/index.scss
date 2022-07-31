@@ -1,0 +1,30 @@
+.auction-page__header {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 80px;
+
+  .header-paragraph {
+    margin: 0;
+    color: #777E90;
+    font-size: 12px;
+  }
+
+  .header-title {
+    margin: 0;
+    font-size: 45px;
+  }
+
+  .header-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #FCFCFD;
+    border: #777E90 solid 2px;
+    border-radius: 25px;
+    font-size: 16px;
+
+    &:hover {
+      border: #3772FF solid 2px;
+      background-color: #3772FF;
+    }
+  }
+}
