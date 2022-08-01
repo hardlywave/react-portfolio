@@ -1,0 +1,16 @@
+{
+  "header": {
+    "logo_name": "NFT Store",
+    "discover": "Discover",
+    "work_info": "How it works",
+    "upload": "Upload",
+    "wallet": "Connect Wallet",
+    "search": "Search"
+  },
+
+  "auction": {
+    "creative_agency": "Create, explore, & collect digital art NFTs.",
+    "creative_economy": "The new creative economy",
+    "start_your_search": "Start your search"
+  }
+}

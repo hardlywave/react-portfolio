@@ -1,16 +1,18 @@
 import "./index.scss"
+import i18n from "../../../i18n";
 
-const AuctionHeader = ({options}) => {
+const AuctionHeader = () => {
+    const { t } = i18n;
     return (
         <div className="auction-page__header">
             <p className="header-paragraph">
-                {options.paragraphName}
+                {t('auction.creative_agency')}
             </p>
             <h3 className="header-title">
-                {options.titleName}
+                {t('auction.creative_economy')}
             </h3>
             <button className="header-button">
-                {options.buttonName}
+                {t('auction.start_your_search')}
             </button>
         </div>
     )
