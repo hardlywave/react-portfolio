@@ -1,6 +1,6 @@
 # Small React project
 
-## Design was taken from [here](https://www.figma.com/file/cfGkBSAbPxPBSOVCrK3ebZ/Crypter_-NFT-marketplace-kit-(Copy)?node-id=1555%3A114851)
+## Design was taken from [here](https://www.figma.com/file/MyU5cICauWUeeUqmqHeSGm/Crypter_-NFT-marketplace-kit?node-id=1567%3A0)
 
 ## Available Scripts
 
