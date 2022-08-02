@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import Header from './components/Header';
-import AuctionPage from "./components/AuctionPage";
+import Header from './pages/Header';
+import AuctionPage from "./pages/AuctionPage";
+import Footer from "./components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -28,6 +29,7 @@ const auctionData = {
             firstName: 'Enrico',
             secondName: 'Cole',
         },
+        nftImgLink: 'https://www.artnews.com/wp-content/uploads/2022/01/unnamed-2.png',
     },
     auctionCustomerData: {
         avatar: '',
@@ -35,6 +37,7 @@ const auctionData = {
             firstName: 'Alex',
             secondName: 'Unknown',
         },
+        nftImgLink: '',
         instantPrice: 3.5,
     },
     auctionCurrentBid: {
@@ -47,5 +50,6 @@ root.render(
       <React.StrictMode>
         <Header options={headerData}/>
         <AuctionPage options={auctionData}/>
+        <Footer />
       </React.StrictMode>
 );

@@ -1,10 +1,11 @@
 import './index.scss'
-import ProfileComponent from "../ProfileComponent";
+import ProfileComponent from "../../../components/ProfileComponent";
 import Countdown from 'react-countdown';
 
 const BidComponent = ({options}) => {
     const {auctionCreatorData: creator, auctionCustomerData: customer, auctionCurrentBid: bid} = options;
-    const renderer = ({ hours, minutes, seconds}) => {
+
+    const CountDownTimer = ({ hours, minutes, seconds}) => {
         return (
             <div className="current-bid-timer">
                 <div className="current-bid-timer-number">
@@ -36,7 +37,7 @@ const BidComponent = ({options}) => {
                         avatar={customer.avatar}
                         topName={'Instant Price'}
                         topNameStyle={{fontSize: '12px', color: '#777E90'}}
-                        bottomName={`${customer.instantPrice} ETH`}
+                        bottomName={`${customer.instantPrice || ''} ETH`}
                         bottomNameStyle={{fontSize: '20px', color: 'white'}}
                     />
                 </div>
@@ -57,7 +58,7 @@ const BidComponent = ({options}) => {
                     </div>
                     <Countdown
                         date={Date.now() + 10000000}
-                        renderer={renderer}
+                        renderer={ CountDownTimer }
                     />
                 </div>
             </div>

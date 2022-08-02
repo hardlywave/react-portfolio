@@ -1,0 +1,31 @@
+.auction-page {
+  display: flex;
+  flex-direction: column;
+
+  &__content{
+    display: flex;
+    flex-direction: row;
+    margin: 60px 80px 0 80px;
+    padding: 0 20px 0 20px;
+    gap: 120px;
+
+    .nft-image {
+      display: flex;
+      border: transparent;
+      border-radius: 25px;
+      max-height: 680px;
+      width: 50%;
+    }
+
+    .bid-component {
+      display: flex;
+      flex-direction: column;
+
+      .swipe-container {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+      }
+    }
+  }
+}
