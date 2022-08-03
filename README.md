@@ -1,4 +1,6 @@
-# Small React project
+## React portfolio project of NFT marketplace
+
+### `Was started on July 28`
 
 ## Design was taken from [here](https://www.figma.com/file/MyU5cICauWUeeUqmqHeSGm/Crypter_-NFT-marketplace-kit?node-id=1567%3A0)
 
