@@ -11,7 +11,7 @@ const AuctionPage = ({options}) => {
         <div className="auction-page">
             <AuctionHeader/>
             <div className="auction-page__content">
-                <img className="nft-image" src={auctionCreatorData.nftImgLink} />
+                <img className="nft-image" src={auctionCreatorData.nftImgLink} alt="nft image"/>
                 <div className="bid-component">
                     <BidComponent options={{auctionCreatorData, auctionCustomerData, auctionCurrentBid}}/>
                     <div className="swipe-container">
