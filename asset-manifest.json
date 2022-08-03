@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c89bf033.css",
+    "main.js": "/react-portfolio/static/js/main.33991e7d.js",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.357243be218346d6e7fc79e9a62d8cee.svg",
+    "index.html": "/react-portfolio/index.html",
+    "static/media/notification.svg": "/react-portfolio/static/media/notification.dd04bea3afb169c879adeb0c803d934c.svg",
+    "static/media/search-icon.svg": "/react-portfolio/static/media/search-icon.95deb5ab61b193890215f850f773183a.svg",
+    "static/media/auction-right-arrow.svg": "/react-portfolio/static/media/auction-right-arrow.f39553fd561fc868afa2fc8e7a0cd04c.svg",
+    "static/media/auction-left-arrow.svg": "/react-portfolio/static/media/auction-left-arrow.293aba7e31c5496a5c03f6d973178307.svg",
+    "static/media/getFetch.cjs": "/react-portfolio/static/media/getFetch.c780682470504fffbd04.cjs",
+    "main.c89bf033.css.map": "/react-portfolio/static/css/main.c89bf033.css.map",
+    "main.33991e7d.js.map": "/react-portfolio/static/js/main.33991e7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c89bf033.css",
+    "static/js/main.33991e7d.js"
+  ]
+}
