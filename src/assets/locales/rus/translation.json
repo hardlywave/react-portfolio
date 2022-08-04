@@ -1,0 +1,16 @@
+{
+  "header": {
+    "logo_name": "NFT Market",
+    "discover": "Найти",
+    "work_info": "Как это работает",
+    "upload": "Загрузить",
+    "wallet": "Подключить кошелек",
+    "search": "Поиск"
+  },
+
+  "auction": {
+    "creative_agency": "Создать, изучить, & сохранить цифровое изображение NFTs",
+    "creative_economy": "Новая креативная экономика",
+    "start_your_search": "Начать поиск"
+  }
+}
