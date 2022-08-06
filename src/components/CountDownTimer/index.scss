@@ -1,0 +1,38 @@
+.current-bid {
+
+  &-timer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 80px;
+
+    &-title{
+      margin: 15px 0 10px 0;
+    }
+
+    &-expired {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    &-number {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      padding-left: 5px;
+      font-weight: 700;
+      font-size: 32px;
+    }
+
+    &-text {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+}

@@ -29,6 +29,7 @@ const auctionData = {
             firstName: 'Enrico',
             secondName: 'Cole',
         },
+        nftName: "The creator network",
         nftImgLink: 'https://www.artnews.com/wp-content/uploads/2022/01/unnamed-2.png',
     },
     auctionCustomerData: {

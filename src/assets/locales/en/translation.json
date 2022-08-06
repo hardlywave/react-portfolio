@@ -11,6 +11,13 @@
   "auction": {
     "creative_agency": "Create, explore, & collect digital art NFTs.",
     "creative_economy": "The new creative economy",
-    "start_your_search": "Start your search"
+    "start_your_search": "Start your search",
+    "bid": {
+      "current_bid": "Current Bid",
+      "auction_ending_in": "Auction ending in",
+      "auction_closed": "Auction closed",
+      "place_a_bid": "Place a bid",
+      "view_item": "View item"
+    }
   }
 }

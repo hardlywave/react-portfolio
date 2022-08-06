@@ -1,29 +1,16 @@
 import './index.scss'
-import ProfileComponent from "../../../components/ProfileComponent";
 import Countdown from 'react-countdown';
+import i18n from "../../../i18n";
+import ProfileComponent from "../../../components/ProfileComponent";
+import CountDownTimer from "../../../components/CountDownTimer";
 
 const BidComponent = ({options}) => {
     const {auctionCreatorData: creator, auctionCustomerData: customer, auctionCurrentBid: bid} = options;
+    const { t } = i18n;
 
-    const CountDownTimer = ({ hours, minutes, seconds}) => {
-        return (
-            <div className="current-bid-timer">
-                <div className="current-bid-timer-number">
-                    <span className="current-bid-timer-hr">{hours}</span>
-                    <span className="current-bid-timer-min">{minutes}</span>
-                    <span className="current-bid-timer-sec">{seconds}</span>
-                </div>
-                <div className="current-bid-timer-text">
-                    <span className="current-bid-timer-hr">Hrs</span>
-                    <span className="current-bid-timer-min">Mins</span>
-                    <span className="current-bid-timer-min">Secs</span>
-                </div>
-            </div>
-        )
-    };
     return (
         <div className="bid-component">
-            <h3 className="bid-component__title">The creator network<span className="title-r">®</span></h3>
+            <h3 className="bid-component__title">{creator.nftName}</h3>
             <div className="bid-component__creator-price-info">
                 <div className="left-content">
                     <ProfileComponent
@@ -44,7 +31,7 @@ const BidComponent = ({options}) => {
             </div>
             <div className="bid-component__current-bid">
                 <div className="current-bid-container-money">
-                    <h3 className="current-bid-title">Current Bid</h3>
+                    <h3 className="current-bid-title">{t('auction.bid.current_bid')}</h3>
                     <div className="current-bid-number">
                         {bid.currentBid.toFixed(2)} ETH
                     </div>
@@ -53,9 +40,6 @@ const BidComponent = ({options}) => {
                     </div>
                 </div>
                 <div className="current-bid-container-timer">
-                    <div className="current-bid-title timer">
-                        Auction ending in
-                    </div>
                     <Countdown
                         date={Date.now() + 10000000}
                         renderer={ CountDownTimer }
@@ -63,8 +47,8 @@ const BidComponent = ({options}) => {
                 </div>
             </div>
             <div className="bid-component__button">
-                <button className="bid-component__button__place">Place a bid</button>
-                <button className="bid-component__button__view">View item</button>
+                <button className="bid-component__button__place">{t('auction.bid.place_a_bid')}</button>
+                <button className="bid-component__button__view">{t('auction.bid.view_item')}</button>
             </div>
         </div>
     )
