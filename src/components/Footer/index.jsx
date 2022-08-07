@@ -57,7 +57,8 @@ const Footer = () => {
                         <div className="subscribing-input-container">
                             <input
                                 className="input-subscribing"
-                                maxLength={20}
+                                type="email"
+                                maxLength={40}
                                 placeholder={t('footer.subscribing.input_placeholder')}
                             />
                             <button className="subscribing-button">
