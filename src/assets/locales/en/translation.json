@@ -10,7 +10,7 @@
 
   "auction": {
     "creative_agency": "Create, explore, & collect digital art NFTs.",
-    "creative_economy": "The new creative economy",
+    "creative_economy": "The New Creative Economy",
     "start_your_search": "Start your search",
     "bid": {
       "current_bid": "Current Bid",
@@ -19,5 +19,28 @@
       "place_a_bid": "Place a bid",
       "view_item": "View item"
     }
+  },
+
+  "footer" : {
+    "stacks": {
+      "title": "Stacks",
+      "discover": "Discover",
+      "connect_wallet": "Connect Wallet",
+      "create_item": "Create item"
+    },
+    "info": {
+      "title": "Info",
+      "download": "Download",
+      "demos": "Demos",
+      "support": "Support"
+    },
+    "subscribing": {
+      "title": "Join Newsletter",
+      "description": "Subscribe our newsletter to get more free design course and resource",
+      "input_placeholder": "Enter your email"
+    },
+    "accept": "Accept",
+    "copyright": "Copyright © 2021 UI8 LLC. All rights reserved",
+    "cookies_service": "We use cookies for better service."
   }
 }
