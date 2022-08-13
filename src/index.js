@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import Header from './pages/Header';
+import Header from './components/Header';
 import AuctionPage from "./pages/AuctionPage";
 import Footer from "./components/Footer";
 

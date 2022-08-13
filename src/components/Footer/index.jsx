@@ -2,14 +2,17 @@ import './index.scss'
 import i18n from "../../i18n";
 import logoSvg from "../../assets/logo.svg";
 import rightArrowSvg from "../../assets/auction-right-arrow.svg";
+import { useMediaQuery } from 'react-responsive';
+
 
 const Footer = () => {
     const { t } = i18n;
+    const isMobile = useMediaQuery({ query: `(max-width: 760px)` });
 
     return(
         <div className="footer-component">
             <div className="footer-component-container">
-                <div className="footer-component-container-top">
+                <div className="footer-component-container-top" style={ isMobile ? {flexDirection: "column"} : {}}>
                     <div className="container-logo">
                         <div className="logo-description-top">
                             <img src={logoSvg} className="logo-svg" alt="logo" />
@@ -19,7 +22,7 @@ const Footer = () => {
                             {t('auction.creative_economy')}
                         </div>
                     </div>
-                    <div className="container-stacks">
+                    <div className="container-stacks" style={ isMobile ? {marginBottom: "30px", paddingBottom: "10px", borderBottom: "#353945 solid 1px"} : {}}>
                         <h5 className="stacks title">
                             {t('footer.stacks.title')}
                         </h5>
@@ -33,9 +36,11 @@ const Footer = () => {
                             {t('footer.stacks.create_item')}
                         </button>
                     </div>
-                    <div className="container-info">
+                    <div className="container-info"
+                         style={ isMobile ? {marginBottom: "30px", paddingBottom: "10px", borderBottom: "#353945 solid 1px"} : {}}
+                    >
                         <h5 className="info title">
-                            {t('footer.subscribing.title')}
+                            {t('footer.info.title')}
                         </h5>
                         <button className="info-button download">
                             {t('footer.info.download')}
@@ -67,8 +72,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="footer-component-container-bottom">
-                    <div className="bottom-copyright-description">
+                <div className="footer-component-container-bottom" style={isMobile ? {flexDirection: "column"} : {}}>
+                    <div className="bottom-copyright-description" style={isMobile ? {marginBottom: "20px"} : {}}>
                         {t('footer.copyright')}
                     </div>
                     <div className="bottom-cookies-description">

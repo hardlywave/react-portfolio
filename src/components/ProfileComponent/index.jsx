@@ -15,7 +15,7 @@ const ProfileComponent = ({avatar, topName, topNameStyle, bottomName, bottomName
                     {topName[0].toUpperCase()}
                 </span>
             }
-            <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+            <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', marginRight: "10px"}}>
                 <div className="profile-info__name" style={topNameStyle}>{topName}</div>
                 <div className="bottom-info__text" style={bottomNameStyle}>
                     {bottomName}

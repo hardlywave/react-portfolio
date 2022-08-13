@@ -5,7 +5,7 @@ import ProfileComponent from "../../../components/ProfileComponent";
 import CountDownTimer from "../../../components/CountDownTimer";
 
 const BidComponent = ({options}) => {
-    const {auctionCreatorData: creator, auctionCustomerData: customer, auctionCurrentBid: bid} = options;
+    const {auctionCreatorData: creator, auctionCustomerData: customer, auctionCurrentBid: bid, isMedia} = options;
     const { t } = i18n;
 
     return (
