@@ -11,6 +11,13 @@
   "auction": {
     "creative_agency": "Создать, изучить, & сохранить цифровое изображение NFTs",
     "creative_economy": "Новая креативная экономика",
-    "start_your_search": "Начать поиск"
+    "start_your_search": "Начать поиск",
+    "bid": {
+      "current_bid": "Текущая ставка",
+      "auction_ending_in": "Аукцион закончится через",
+      "auction_closed": "Аукцион закрыт",
+      "place_a_bid": "Сделать ставку",
+      "view_item": "Посмотреть предмет"
+    }
   }
 }

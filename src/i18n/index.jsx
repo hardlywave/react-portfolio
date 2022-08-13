@@ -8,7 +8,7 @@ import translationRu from "../assets/locales/rus/translation.json";
 
 const resources = {
     en: { translation: translationEn },
-    rus: { translation: translationRu }
+    ru: { translation: translationRu }
 };
 
 i18n
@@ -17,7 +17,6 @@ i18n
     .use(LanguageDetector)
     .init({
         resources,
-        lng: "en",
         fallbackLng: "en",
         contextSeparator: true,
         detection: {
