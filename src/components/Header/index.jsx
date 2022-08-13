@@ -50,7 +50,7 @@ const Header = ({ options }) => {
                         <img src={notificationSvg} className="notification-svg" alt="notification" />
                     </button>
                 </div>
-                <button className="header__button upload" style={isMobile ? {flexDirection: "row", margin: 0, alignItems: "unset",} : {}}>{t('header.upload')}</button>
+                <button className="header__button upload" style={isMobile ? {flexDirection: "row",margin: "0 0 20px 0", alignItems: "unset",} : {}}>{t('header.upload')}</button>
                 <button className="header__button wallet" style={isMobile ? {flexDirection: "row", margin: 0, alignItems: "unset",} : {}}>{t('header.wallet')}</button>
             </div>
         </div>
