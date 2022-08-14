@@ -10,17 +10,32 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 const headerData = {
     notification: [
         {
-            id: '',
-            from: '',
-            message: '',
+            id: 1,
+            from: {
+                personalId: 293949391,
+                name: {
+                    firstName: 'Denis',
+                    secondName: 'Tsimafeyenka',
+                },
+                hashKey: 'Denis293949391Tsimafeyenka',
+            },
+            message: 'I love you baby :з',
         },
         {
-            id: '',
-            from: '',
-            message: '',
+            id: '2',
+            from: {
+                personalId: 94949392,
+                name: {
+                    firstName: 'Hardly',
+                    secondName: 'Wave',
+                },
+                hashKey: 'Hardly94949392Wave',
+            },
+            message: 'I love you baby :з v2.0 ;з',
         }
-    ],
+    ]
 }
+
 
 const auctionData = {
     auctionCreatorData: {
